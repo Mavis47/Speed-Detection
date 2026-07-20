@@ -21,7 +21,7 @@ A real-time vehicle speed detection system built using **Python, OpenCV, and Ult
 - Python 3.12
 - OpenCV
 - Ultralytics YOLOv8
-- NumPy
+- Nextjs
 
 ---
 
@@ -36,15 +36,7 @@ Speed-Detection/
 │   ├── orientation.py
 │   └── ...
 │
-├── models/
-│   └── yolov8n.pt
-│
-├── samples/
-│   ├── screenshots/
-│   ├── videos/
-│   └── ...
-│
-├── requirements.txt
+├── frontend (Nextjs)
 ├── README.md
 └── .gitignore
 ```
@@ -79,7 +71,7 @@ During installation, make sure to enable:
 ## 2. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Speed-Detection.git
+git clone https://github.com/Mavis47/Speed-Detection.git
 
 cd Speed-Detection
 ```
@@ -113,7 +105,6 @@ pip install opencv-python
 
 pip install ultralytics
 
-pip install numpy
 ```
 
 or install everything together
@@ -170,9 +161,7 @@ Example screenshots and videos can be found in
 ```
 samples
 
-samples
 ```
-
 ---
 
 # 🤝 Contributing
@@ -183,13 +172,6 @@ Contributions are welcome.
 2. Create a new branch
 3. Commit your changes
 4. Open a Pull Request
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
 ---
 
 ## ⭐ Support
